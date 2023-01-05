@@ -1,6 +1,6 @@
 ##新建分支develop并推送到远程
 
-1.git branch 查看本地分支状态  
+1.git branch $\color{#FF7D00}{查看本地分支状态}$  
 2.git branch -a 查看远程分支状态  
 3.git checkout -b develop 创建本地分支develop  
 4.git branch 查看本地分支状态 develop分支 是否创建成功  
