@@ -23,13 +23,13 @@
 7.git push origin —delete tag v1.0 $\color{#FF7D00}{删除远程tag}$  
 
 ##合并develop 分支到master  
-1.git branch 查看分支状态  
-2.git checkout master 切换分支到master上  
-3.git pull origin master 拉取远程master主干代码  
-4.git merge develop 合并develop分支到master上  
-5.git status 查看状态  
-6.git push origin master 如果没有冲突推送到远程master上  
-7.git checkout develop 切换到develop分支，避免下次直接在master上开发  
+1.git branch $\color{#FF7D00}{查看分支状态}$  
+2.git checkout master $\color{#FF7D00}{切换分支到master上}$  
+3.git pull origin master $\color{#FF7D00}{拉取远程master主干代码}$  
+4.git merge develop $\color{#FF7D00}{合并develop分支到master上}$  
+5.git status $\color{#FF7D00}{查看状态}$  
+6.git push origin master $\color{#FF7D00}{如果没有冲突推送到远程master上}$  
+7.git checkout develop $\color{#FF7D00}{切换到develop分支，避免下次直接在master上开发}$  
 
 ##远程仓库并更时替换Git地址  
 git remote set-url origin 新的远程仓库地址  
