@@ -1,14 +1,14 @@
 ##新建分支develop并推送到远程
 
 1.git branch $\color{#FF7D00}{查看本地分支状态}$  
-2.git branch -a 查看远程分支状态  
-3.git checkout -b develop 创建本地分支develop  
-4.git branch 查看本地分支状态 develop分支 是否创建成功  
-5.git push origin develop:develop 将分支develop推送到远程 远程的名字可以改变也可以同本地分支同名  
-6.git branch -a 查看远程分支 可以查看分支是否成功推送到远程  
-7.git branch --set-upstream-to=origin/develop develop 将本地分支和远程分支进行关联不然pull代码的时候会报错  
-8.git push origin --delete develop 删除远程分支  
-9.git branch -d delete 删除本地分支  
+2.git branch -a $\color{#FF7D00}{查看远程分支状态}$  
+3.git checkout -b develop $\color{#FF7D00}{创建本地分支develop}$  
+4.git branch $\color{#FF7D00}{查看本地分支状态 develop分支 是否创建成功}$  
+5.git push origin develop:develop $\color{#FF7D00}{将分支develop推送到远程 远程的名字可以改变也可以同本地分支同名}$  
+6.git branch -a $\color{#FF7D00}{查看远程分支 可以查看分支是否成功推送到远程}$  
+7.git branch --set-upstream-to=origin/develop develop $\color{#FF7D00}{将本地分支和远程分支进行关联不然pull代码的时候会报错}$  
+8.git push origin --delete develop $\color{#FF7D00}{删除远程分支}$  
+9.git branch -d delete $\color{#FF7D00}{删除本地分支}$  
 
 ##新建tag并推送到远程  
 1.git tag 查看现有tag状态  
