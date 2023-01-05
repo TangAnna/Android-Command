@@ -1,4 +1,4 @@
-新建分支develop并推送到远程
+##新建分支develop并推送到远程
 
 1.git branch 查看本地分支状态
 2.git branch -a 查看远程分支状态
@@ -10,7 +10,7 @@
 8.git push origin --delete develop 删除远程分支
 9.git branch -d delete 删除本地分支
 
-新建tag并推送到远程
+##新建tag并推送到远程
 1.git tag 查看现有tag状态
 2.git tag v1.0 创建tagv1.0  轻量标签
 或者 git tag -a v1.0 -m "version1.0版本" 创建tag 并添加tag说明  附注标签
@@ -22,7 +22,7 @@
 6.git tag -d v1.0 删除本地tag  
 7.git push origin —delete tag v1.0 删除远程tag
 
-合并develop 分支到master
+##合并develop 分支到master
 1.git branch 查看分支状态
 2.git checkout master 切换分支到master上
 3.git pull origin master 拉取远程master主干代码
@@ -31,10 +31,10 @@
 6.git push origin master 如果没有冲突推送到远程master上
 7.git checkout develop 切换到develop分支，避免下次直接在master上开发
 
-远程仓库并更时替换Git地址
+##远程仓库并更时替换Git地址
 git remote set-url origin 新的远程仓库地址
 
-查看当前项目的仓库信息
+##查看当前项目的仓库信息
 git remote show origin
-更新远程分支的代码到当前分支
+##更新远程分支的代码到当前分支
 git pull origin 任意分支名称
