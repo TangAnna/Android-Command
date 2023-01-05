@@ -11,16 +11,16 @@
 9.git branch -d delete $\color{#FF7D00}{删除本地分支}$  
 
 ##新建tag并推送到远程  
-1.git tag 查看现有tag状态  
-2.git tag v1.0 创建tagv1.0  轻量标签  
-或者 git tag -a v1.0 -m "version1.0版本" 创建tag 并添加tag说明  附注标签  
-3.git tag 查看现有tag状态  
-或者 git show v1.0 查看指定tag的详细信息  
-4.git push origin v1.0 推送tag v1.0到远程终端  
-或者git push origin --tags 推送所有tag到远程终端  
-5. git checkout v1.0 切换标签  
-6.git tag -d v1.0 删除本地tag    
-7.git push origin —delete tag v1.0 删除远程tag  
+1.git tag $\color{#FF7D00}{查看现有tag状态}$  
+2.git tag v1.0 $\color{#FF7D00}{创建tagv1.0}$  轻量标签  
+或者 git tag -a v1.0 -m "version1.0版本" $\color{#FF7D00}{创建tag 并添加tag说明}$  附注标签  
+3.git tag $\color{#FF7D00}{查看现有tag状态}$  
+或者 git show v1.0 $\color{#FF7D00}{查看指定tag的详细信息}$  
+4.git push origin v1.0 $\color{#FF7D00}{推送tag v1.0到远程终端}$  
+或者git push origin --tags $\color{#FF7D00}{推送所有tag到远程终端}$  
+5. git checkout v1.0 $\color{#FF7D00}{切换标签}$  
+6.git tag -d v1.0 $\color{#FF7D00}{删除本地tag}$    
+7.git push origin —delete tag v1.0 $\color{#FF7D00}{删除远程tag}$  
 
 ##合并develop 分支到master  
 1.git branch 查看分支状态  
